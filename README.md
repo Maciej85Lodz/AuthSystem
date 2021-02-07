@@ -9,7 +9,7 @@ User Login and Registration Application. Built using ASP.Net Core MVC & Identity
 
 ### Configuration:
 
-For correct configure of this application your need to download the source code, unzip it and open via Visual Studio.
+#####For correct configure of this application your need to download the source code, unzip it and open via Visual Studio.
 
 ###
 
