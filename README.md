@@ -21,9 +21,17 @@ After that please, open Package Manager Console.
 In Package Manager Console  window, please enter the command below.
 - Add-Migration "Initial-Create"
 
-When the console return the info "Build succeeded." then please enter commend:
+When the console return the info "Build succeeded." then please enter command:
 - Update-Database.
 
 If Add migration return any error message please use command:
 Remove-Migration" and start once again with "Add-Migration" command.
+
+#### Run application:
  
+Please build the application via Visual Studio using combination of keys (Ctrl+Shift+B) or using VS menubar:
+- Build => Bulid.
+
+After that please run application in Debug mode using "Ctrl+F5" combination or just by clicking play.
+
+
