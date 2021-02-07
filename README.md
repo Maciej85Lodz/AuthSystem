@@ -19,9 +19,11 @@ After that please, open Package Manager Console.
 - Tools => Nuget Package Manager => Package Manager Console.
 
 In Package Manager Console  window, please enter the command below.
+- Add-Migration "Initial-Create"
 
-###
+When the console return the info "Build succeeded." then please enter commend:
+- Update-Database.
 
-### Bootstrap
-### GIT
-
+If Add migration return any error message please use command:
+Remove-Migration" and start once again with "Add-Migration" command.
+ 
