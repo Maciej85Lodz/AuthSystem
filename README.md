@@ -27,7 +27,7 @@ When the console return the info "Build succeeded." then please enter command:
 If Add migration return any error message please use command:
 Remove-Migration" and start once again with "Add-Migration" command.
 
-#### Run application:
+### Run application:
  
 Please build the application via Visual Studio using combination of keys (Ctrl+Shift+B) or using VS menubar:
 - Build => Bulid.
