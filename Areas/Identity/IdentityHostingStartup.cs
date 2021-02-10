@@ -23,8 +23,10 @@ namespace AuthSystem.Areas.Identity
                 services.AddDefaultIdentity<AuthSystemUser>(options =>
                     {
                         options.SignIn.RequireConfirmedAccount = false;
-                        options.Password.RequireLowercase = false;
-                        options.Password.RequireUppercase = false;
+                        options.Password.RequireLowercase = true;
+                        options.Password.RequireUppercase = true;
+                        options.Password.RequireDigit = true;
+                        options.Password.RequireNonAlphanumeric = true;
                     })
                     .AddEntityFrameworkStores<AuthSystemDBContext>();
             });
