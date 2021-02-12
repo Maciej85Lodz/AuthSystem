@@ -34,4 +34,5 @@ Please build the application via Visual Studio using combination of keys (Ctrl+S
 
 After that please run application in Debug mode using "Ctrl+F5" combination or just by clicking play.
 
-
+### If you have any questions or suggestions please contact me via e-mail:
+contact@maciejwolejszo.pl
